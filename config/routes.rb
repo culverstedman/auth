@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources "users"
 
   resources "sessions"
+  # below are all of the 7 things that are done by the resources command
   # get("/sessions", {:controller => "sessions", :action => "index"})
   # get("/sessions/:id", {:controller => "sessions", :action => "show"})
   # get("/sessions/new", {:controller => "sessions", :action => "new"})
